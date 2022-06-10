@@ -1,0 +1,9 @@
+---
+ - hosts: slave1
+   become: true
+   tasks:
+     - name: create a file
+       file:
+         path: /root/karthikeya.txt
+         state: touch
+         mode: 0777
