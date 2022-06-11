@@ -4,6 +4,6 @@
    tasks:
      - name: create a file
        file:
-         path: /root/karthikeya.txt
+         path: /root/chandana.txt
          state: touch
          mode: 0777
